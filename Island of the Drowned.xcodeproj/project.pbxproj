@@ -1,0 +1,303 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5EFEDBB61D5E6F9D00EE008D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EFEDBB51D5E6F9D00EE008D /* AppDelegate.swift */; };
+		5EFEDBB81D5E6F9D00EE008D /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 5EFEDBB71D5E6F9D00EE008D /* GameScene.sks */; };
+		5EFEDBBA1D5E6F9D00EE008D /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EFEDBB91D5E6F9D00EE008D /* GameScene.swift */; };
+		5EFEDBBC1D5E6F9D00EE008D /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EFEDBBB1D5E6F9D00EE008D /* GameViewController.swift */; };
+		5EFEDBBF1D5E6F9D00EE008D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EFEDBBD1D5E6F9D00EE008D /* Main.storyboard */; };
+		5EFEDBC11D5E6F9D00EE008D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EFEDBC01D5E6F9D00EE008D /* Assets.xcassets */; };
+		5EFEDBC41D5E6F9D00EE008D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EFEDBC21D5E6F9D00EE008D /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5EFEDBB21D5E6F9D00EE008D /* Island of the Drowned.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Island of the Drowned.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EFEDBB51D5E6F9D00EE008D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5EFEDBB71D5E6F9D00EE008D /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		5EFEDBB91D5E6F9D00EE008D /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		5EFEDBBB1D5E6F9D00EE008D /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		5EFEDBBE1D5E6F9D00EE008D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5EFEDBC01D5E6F9D00EE008D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5EFEDBC31D5E6F9D00EE008D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5EFEDBC51D5E6F9D00EE008D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5EFEDBAF1D5E6F9D00EE008D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5EFEDBA91D5E6F9C00EE008D = {
+			isa = PBXGroup;
+			children = (
+				5EFEDBB41D5E6F9D00EE008D /* Island of the Drowned */,
+				5EFEDBB31D5E6F9D00EE008D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5EFEDBB31D5E6F9D00EE008D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5EFEDBB21D5E6F9D00EE008D /* Island of the Drowned.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5EFEDBB41D5E6F9D00EE008D /* Island of the Drowned */ = {
+			isa = PBXGroup;
+			children = (
+				5EFEDBB51D5E6F9D00EE008D /* AppDelegate.swift */,
+				5EFEDBB71D5E6F9D00EE008D /* GameScene.sks */,
+				5EFEDBB91D5E6F9D00EE008D /* GameScene.swift */,
+				5EFEDBBB1D5E6F9D00EE008D /* GameViewController.swift */,
+				5EFEDBBD1D5E6F9D00EE008D /* Main.storyboard */,
+				5EFEDBC01D5E6F9D00EE008D /* Assets.xcassets */,
+				5EFEDBC21D5E6F9D00EE008D /* LaunchScreen.storyboard */,
+				5EFEDBC51D5E6F9D00EE008D /* Info.plist */,
+			);
+			path = "Island of the Drowned";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5EFEDBB11D5E6F9D00EE008D /* Island of the Drowned */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5EFEDBC81D5E6F9D00EE008D /* Build configuration list for PBXNativeTarget "Island of the Drowned" */;
+			buildPhases = (
+				5EFEDBAE1D5E6F9D00EE008D /* Sources */,
+				5EFEDBAF1D5E6F9D00EE008D /* Frameworks */,
+				5EFEDBB01D5E6F9D00EE008D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Island of the Drowned";
+			productName = "Island of the Drowned";
+			productReference = 5EFEDBB21D5E6F9D00EE008D /* Island of the Drowned.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5EFEDBAA1D5E6F9C00EE008D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Made On Planes";
+				TargetAttributes = {
+					5EFEDBB11D5E6F9D00EE008D = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 5EFEDBAD1D5E6F9C00EE008D /* Build configuration list for PBXProject "Island of the Drowned" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5EFEDBA91D5E6F9C00EE008D;
+			productRefGroup = 5EFEDBB31D5E6F9D00EE008D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5EFEDBB11D5E6F9D00EE008D /* Island of the Drowned */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5EFEDBB01D5E6F9D00EE008D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EFEDBB81D5E6F9D00EE008D /* GameScene.sks in Resources */,
+				5EFEDBC41D5E6F9D00EE008D /* LaunchScreen.storyboard in Resources */,
+				5EFEDBC11D5E6F9D00EE008D /* Assets.xcassets in Resources */,
+				5EFEDBBF1D5E6F9D00EE008D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5EFEDBAE1D5E6F9D00EE008D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5EFEDBBA1D5E6F9D00EE008D /* GameScene.swift in Sources */,
+				5EFEDBBC1D5E6F9D00EE008D /* GameViewController.swift in Sources */,
+				5EFEDBB61D5E6F9D00EE008D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5EFEDBBD1D5E6F9D00EE008D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5EFEDBBE1D5E6F9D00EE008D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5EFEDBC21D5E6F9D00EE008D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5EFEDBC31D5E6F9D00EE008D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5EFEDBC61D5E6F9D00EE008D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5EFEDBC71D5E6F9D00EE008D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5EFEDBC91D5E6F9D00EE008D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Island of the Drowned/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "madeOnPlanes.Island-of-the-Drowned";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5EFEDBCA1D5E6F9D00EE008D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Island of the Drowned/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "madeOnPlanes.Island-of-the-Drowned";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5EFEDBAD1D5E6F9C00EE008D /* Build configuration list for PBXProject "Island of the Drowned" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EFEDBC61D5E6F9D00EE008D /* Debug */,
+				5EFEDBC71D5E6F9D00EE008D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5EFEDBC81D5E6F9D00EE008D /* Build configuration list for PBXNativeTarget "Island of the Drowned" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5EFEDBC91D5E6F9D00EE008D /* Debug */,
+				5EFEDBCA1D5E6F9D00EE008D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5EFEDBAA1D5E6F9C00EE008D /* Project object */;
+}
