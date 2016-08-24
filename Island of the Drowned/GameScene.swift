@@ -11,12 +11,30 @@ import SpriteKit
 class GameScene: SKScene {
     override func didMoveToView(view: SKView) {
         /* Setup your scene here */
-        let myLabel = SKLabelNode(fontNamed:"Chalkduster")
-        myLabel.text = "Hello, World!"
-        myLabel.fontSize = 45
-        myLabel.position = CGPoint(x:CGRectGetMidX(self.frame), y:CGRectGetMidY(self.frame))
+        let Header = SKLabelNode(fontNamed:"Times New Roman")
+        Header.text = "Island of the Drowned!"
+        Header.fontSize = 45
+        Header.position = CGPoint(x:CGRectGetMidX(self.frame), y:(CGRectGetMidY(self.frame)+(CGRectGetMidY(self.frame)/3)*2))
         
-        self.addChild(myLabel)
+        let menuOption1 = SKLabelNode(fontNamed:"Arial")
+        menuOption1.text = "Menu Option 1"
+        menuOption1.fontSize = 35
+        menuOption1.position = CGPoint(x:CGRectGetMidX(self.frame), y:(CGRectGetMidY(self.frame)+(CGRectGetMidY(self.frame)/3)))
+        
+        let menuOption2 = SKLabelNode(fontNamed:"Arial")
+        menuOption2.text = "Menu Option 2"
+        menuOption2.fontSize = 35
+        menuOption2.position = CGPoint(x:CGRectGetMidX(self.frame), y:CGRectGetMidY(self.frame))
+        
+        let menuOption3 = SKLabelNode(fontNamed:"Calibre")
+        menuOption3.text = "Menu Option 3"
+        menuOption3.fontSize = 35
+        menuOption3.position = CGPoint(x:CGRectGetMidX(self.frame), y:(CGRectGetMidY(self.frame)-(CGRectGetMidY(self.frame)/3)))
+        
+        self.addChild(Header)
+        self.addChild(menuOption1)
+        self.addChild(menuOption2)
+        self.addChild(menuOption3)
     }
     
     override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
