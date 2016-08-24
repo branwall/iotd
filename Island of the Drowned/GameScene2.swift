@@ -27,13 +27,13 @@ class GameScene2: SKScene {
     func makeButtonOne()->SKSpriteNode {
         let tenth: CGFloat = self.frame.size.width/10
         let btn = SKSpriteNode(color: UIColor.blueColor(), size: CGSize(width: tenth, height: tenth))
-        btn.position = CGPoint(x: CGRectGetMinX(self.frame) + self.size.width/2 , y: CGRectGetMinY(self.frame) + self.size.height/2)
+        btn.position = CGPoint(x: CGRectGetMinX(self.frame) + btn.size.width/2 , y: CGRectGetMinY(self.frame) + btn.size.height/2)
         return btn
     }
     func makeButtonTwo()->SKSpriteNode {
         let tenth: CGFloat = self.frame.size.width/10
         let btn = SKSpriteNode(color: UIColor.greenColor(), size: CGSize(width: tenth, height: tenth))
-        btn.position = CGPoint(x: CGRectGetMaxX(self.frame) - self.size.width/2 , y: CGRectGetMinY(self.frame) + self.size.height/2)
+        btn.position = CGPoint(x: CGRectGetMaxX(self.frame) - btn.size.width/2 , y: CGRectGetMinY(self.frame) + btn.size.height/2)
         return btn
     }
     
