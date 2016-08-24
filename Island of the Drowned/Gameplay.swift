@@ -10,7 +10,6 @@ import Foundation
 //: Playground - noun: a place where people can play
 import UIKit
 
-var str = "Hello, playground"
 
 enum PlayerType{
     case Pirate
