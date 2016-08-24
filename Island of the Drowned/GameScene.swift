@@ -43,17 +43,14 @@ class GameScene: SKScene {
         for touch in touches {
             let location = touch.locationInNode(self)
             
-            let sprite = SKSpriteNode(imageNamed:"Spaceship")
+            let scene = GameScene2()
+            let skView = self.view! as SKView
+            skView.ignoresSiblingOrder = true
+            scene.scaleMode = .AspectFill
+            scene.size = self.view!.frame.size
+            skView.presentScene(scene)
             
-            sprite.xScale = 0.5
-            sprite.yScale = 0.5
-            sprite.position = location
             
-            let action = SKAction.rotateByAngle(CGFloat(M_PI), duration:1)
-            
-            sprite.runAction(SKAction.repeatActionForever(action))
-            
-            self.addChild(sprite)
         }
     }
    
