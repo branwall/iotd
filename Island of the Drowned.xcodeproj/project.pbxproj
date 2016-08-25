@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		5EE6E48C1D6E6064005A5F4C /* GameScene2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EE6E48B1D6E6064005A5F4C /* GameScene2.swift */; };
+		5EE6E4911D6E6BCA005A5F4C /* Image Assets in Resources */ = {isa = PBXBuildFile; fileRef = 5EE6E4901D6E6BCA005A5F4C /* Image Assets */; };
 		5EFEDBB61D5E6F9D00EE008D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EFEDBB51D5E6F9D00EE008D /* AppDelegate.swift */; };
 		5EFEDBB81D5E6F9D00EE008D /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 5EFEDBB71D5E6F9D00EE008D /* GameScene.sks */; };
 		5EFEDBBA1D5E6F9D00EE008D /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EFEDBB91D5E6F9D00EE008D /* GameScene.swift */; };
@@ -20,6 +21,7 @@
 
 /* Begin PBXFileReference section */
 		5EE6E48B1D6E6064005A5F4C /* GameScene2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameScene2.swift; sourceTree = "<group>"; };
+		5EE6E4901D6E6BCA005A5F4C /* Image Assets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Image Assets"; sourceTree = "<group>"; };
 		5EFEDBB21D5E6F9D00EE008D /* Island of the Drowned.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Island of the Drowned.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EFEDBB51D5E6F9D00EE008D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5EFEDBB71D5E6F9D00EE008D /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -46,6 +48,7 @@
 		5EFEDBA91D5E6F9C00EE008D = {
 			isa = PBXGroup;
 			children = (
+				5EE6E4901D6E6BCA005A5F4C /* Image Assets */,
 				5EFEDBB41D5E6F9D00EE008D /* Island of the Drowned */,
 				5EFEDBB31D5E6F9D00EE008D /* Products */,
 			);
@@ -135,6 +138,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5EE6E4911D6E6BCA005A5F4C /* Image Assets in Resources */,
 				5EFEDBB81D5E6F9D00EE008D /* GameScene.sks in Resources */,
 				5EFEDBC41D5E6F9D00EE008D /* LaunchScreen.storyboard in Resources */,
 				5EFEDBC11D5E6F9D00EE008D /* Assets.xcassets in Resources */,

@@ -9,6 +9,7 @@
 import SpriteKit
 var b1: SKSpriteNode? = nil
 var b2: SKSpriteNode? = nil
+var b3: SKSpriteNode? = nil
 class GameScene2: SKScene {
     override func didMoveToView(view: SKView) {
         /* Setup your scene here */
@@ -21,18 +22,30 @@ class GameScene2: SKScene {
         self.addChild(b1!)
         b2 = makeButtonTwo()
         self.addChild(b2!)
+        b3 = makeButtonThree()
+        self.addChild(b3!)
         
     }
     
     func makeButtonOne()->SKSpriteNode {
-        let tenth: CGFloat = self.frame.size.width/10
-        let btn = SKSpriteNode(color: UIColor.blueColor(), size: CGSize(width: tenth, height: tenth))
+        let tenth: CGFloat = self.frame.size.width/4
+        let btn = SKSpriteNode(imageNamed: "Image Assets/PirateCard.png")
+        btn.size = CGSize(width: tenth, height: tenth)
         btn.position = CGPoint(x: CGRectGetMinX(self.frame) + btn.size.width/2 , y: CGRectGetMinY(self.frame) + btn.size.height/2)
         return btn
     }
     func makeButtonTwo()->SKSpriteNode {
-        let tenth: CGFloat = self.frame.size.width/10
-        let btn = SKSpriteNode(color: UIColor.greenColor(), size: CGSize(width: tenth, height: tenth))
+        let tenth: CGFloat = self.frame.size.width/4
+        let btn = SKSpriteNode(imageNamed: "Image Assets/ExplorerCard.png")
+        btn.size = CGSize(width: tenth, height: tenth)
+        btn.position = CGPoint(x: CGRectGetMidX(self.frame), y: CGRectGetMinY(self.frame) + btn.size.height/2)
+        return btn
+    }
+    
+    func makeButtonThree()->SKSpriteNode {
+        let tenth: CGFloat = self.frame.size.width/4
+        let btn = SKSpriteNode(imageNamed: "Image Assets/DrownedCard.png")
+        btn.size = CGSize(width: tenth, height: tenth)
         btn.position = CGPoint(x: CGRectGetMaxX(self.frame) - btn.size.width/2 , y: CGRectGetMinY(self.frame) + btn.size.height/2)
         return btn
     }
@@ -60,7 +73,9 @@ class GameScene2: SKScene {
             if (b2!.containsPoint(location)){
                 popupText("pressed 2")
             }
-           
+            if (b3!.containsPoint(location)){
+                popupText("pressed 3")
+            }
         }
     }
     
